@@ -20,7 +20,7 @@ class Task(db.Model):
             'id': self.id,
             'title': self.title,
             'developer': self.developer,
-            'año': self.year,
+            'year': self.year,
             'console': self.console
         }
  
